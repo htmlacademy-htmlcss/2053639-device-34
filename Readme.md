@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Дмитрий Долгов](https://up.htmlacademy.ru/htmlcss/34/user/2053639).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Григорьев](https://htmlacademy.ru/profile/fuckhtml).
 
 ---
 
