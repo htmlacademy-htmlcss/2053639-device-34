@@ -7,49 +7,60 @@
 </head>
 
 <body>
-   <header class="main-header"></header>
-   <h1 class="visually-hidden">device</h1>
-   <img class="logo" src="" alt="Логотип device">
-   <nav class="navigation">
-      <form class="Search">
-         <input class="Search text" type="text" name="text" placeholder="Текст поиска">
-         <input class="Search button" type="button" value="Найти">
-      </form>
-      <ul class="navigation-list">
-         <li class="navigation-item">
-            <a class="navigation-link" href="#">Войти</a>
-         </li>
-         <li class="navigation-item">
-            <a class="navigation-link" href="#">Сравнить</a>
-         </li>
-         <li class="navigation-item">
-            <a class="navigation-link" href="awarranty.html">Корзина</a>
-         </li>
 
-      </ul>
-      <ul class="navigation-list navigation-user">
-         <li class="navigation-item">
-            <a class="navigation-link" href="catalog.html">Каталог товаров</a>
-         </li> <select name="Католог товаров">
-            <option value="1">Виртуальная реальность</option>
-            <option value="2">Моноподы для селфи</option>
-            <option value="3">Экшн-камеры</option>
-            <option value="4">Фитнес-браслеты</option>
-            <option value="5">Умные часы</option>
-            <option value="6">Квадрокоптеры</option>
-         </select>
-         <li class="navigation-item">
-            <a class="navigation-link" href="#">Доставка</a>
-         </li>
-         <li class="navigation-item">
-            <a class="navigation-link" href="#">Гарантия</a>
-         </li>
-         <li class="navigation-item">
-            <a class="navigation-link" href="#"> Контакты</a>
-         </li>
-      </ul>
-   </nav>
+
+
+   <header class="main-header">
+      <img class="logo" src="#" alt="Логотип device">
+      <nav class="navigation">
+         <form class="search">
+            <input class="search text" type="search" name="text" placeholder="Текст поиска">
+            <input class="search button" type="button" value="Найти">
+         </form>
+
+         <ul class="navigation-list">
+            <li class="navigation-item">
+               <a class="navigation-link" href="#">Войти</a>
+            </li>
+            <li class="navigation-item">
+               <a class="navigation-link" href="#">Сравнить</a>
+            </li>
+            <li class="navigation-item">
+               <a class="navigation-link" href="awarranty.html">Корзина</a>
+            </li>
+         </ul>
+
+         <ul class="navigation-list navigation-user">
+            <select name="Католог товаров">
+               <option value="1">
+                  <h3>Каталог товаров</h3>
+               </option>
+               <option value="2">Виртуальная реальность</option>
+               <option value="3">Моноподы для селфи</option>
+               <option value="4">Экшн-камеры</option>
+               <option value="5">Фитнес-браслеты</option>
+               <option value="6">Умные часы</option>
+               <option value="7">Квадрокоптеры</option>
+            </select>
+            <li class="navigation-item">
+               <a class="navigation-link" href="#">Доставка</a>
+            </li>
+            <li class="navigation-item">
+               <a class="navigation-link" href="#">Гарантия</a>
+            </li>
+            <li class="navigation-item">
+               <a class="navigation-link" href="#"> Контакты</a>
+            </li>
+         </ul>
+      </nav>
+   </header>
+
+
+
+
+
    <main class="main-index">
+
       <section class="Product">
          <div class="quadrocopter">
             <img src="#" alt="quadrocopter">
@@ -61,7 +72,6 @@
             <button class="more">Подробнее</button>
             <table>
                <tbody>
-
                   <tr>
                      <td>800м</td>
                      <td>50м</td>
@@ -113,7 +123,17 @@
                </tbody>
             </table>
          </div>
+
+         <button class="slider-button slider-prev" type="button">
+            <span class="visually-hidden">Предыдущий товар</span>
+         </button>
+         <button class="slider-button slider-next" type="button">
+            <span class="visually-hidden">Следующий товар</span>
+         </button>
+
       </section>
+
+
 
       <ul class="navigation-list product ">
          <li class="navigation-product">
@@ -140,23 +160,134 @@
 
       <section class="services">
          <div class="delivery">
-            <button class="services delivery">Доставка</button>
-            <h2 class="services delivery ">Доставка</h2>
+            <a class="services delivery" href="#">Доставка </a>
+            <h3 class="services delivery ">Доставка</h3>
             <p class="services delivery">
                Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведьмы
                неплохозаработае, поднимая его на ваш этаж.
             </p>
             <img src="#" alt="services delivery">
          </div>
+
+         <div class="warranty">
+            <a class="services warranty" href="#">Гарантия </a>
+            <h3 class="services warranty ">Гарантия</h3>
+            <p class="services warranty">
+               Если из-за возгораниякупленного у настовара у вассгорит дом - не переживайте,мы выдадим вам новый. Това,
+               не дом, конечно.
+            </p>
+            <img src="#" alt="services warranty">
+         </div>
+         <div class="сredit">
+            <a class="services сredit" href="#">Кредит </a>
+            <h3 class="services сredit ">Кредит</h3>
+            <p class="services сredit">Залезть в долговую яму стало проще! Кредитные консультанты подберутдля
+               васнаиболее выгодныеусловия
+               кредита. Выгодные для банк, разумеется. </p>
+            <img src="#" alt="services сredit">
+         </div>
       </section>
 
+      <a class=" button-delivery" href="#"><img src="#" alt="Доставка">
+         <h3 class="button button-delivery">Доставим редкий товар под заказ</h3>
+      </a>
 
 
 
-      <a class="button button-delivery" href="#"><img src="#" alt="Доставка">Доставим редкий товар под заказ</a>
+      <section class="info">
+         <div class="info about us">
+            <h2 class="title-about us"> О нас </h2>
+            <p> Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас. </p>
+            <p>Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</p>
+            <ul class=" info about us delivery">Меловые линии</ul>
+            <ul class="info about us delivery">СДИК</ul>
+            <ul class="info about us delivery">ТоксБерри</ul>
+            <a class="button button-about us" href="#">Подробнее о нас </a>
+         </div>
 
+         <div class="contacts info ">
+            <h2 class="contacts-title">Контакты </h2>
+            <p>Вы можете забрать товар сами, заехав в наш офис.Заодно сможете проверить работоспособность покупки. </p>
+            <h3 class="contacts-subtitle"> Интернет-магазин «Девайс»</h3>
+            <address class="contacts-address">
+               <p class="contacts-address-text"> Санкт-Петербург,
+                  набережная реки Карповки, 5, литера П. Меловые линии
+                  <a class="contacts-phone" href="tel:+78121212"> +7(812) 812-12-12</a>
+               <h3 class="contacts-subtitle">Время работы</h3>
+               <ul class="contacts-schedule">
+                  <li class="contacts-schedule-item">пн—пт: с 10:00 до 22:00</li>
+                  <li class="contacts-schedule-item">сб—вс: с 10:00 до 19:00</li>
+               </ul>
+            </address>
+            <a class="button button-contacts" href="#">Напиши Нам</a>
+         </div>
+      </section>
+
+      <section class="subscription">
+         <h2 class="subscription-text">Подпишитесь на рассылку</h2>
+         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+            <label for="newsletter-email">Email</label>
+            <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
+               required>
+            <button class="button newsletter-button" type="submit">
+               <span class="visually-hidden">Подписаться</span>
+            </button>
+         </form>
+
+
+         <p>Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а также акции,
+            спецпредложения и вот это всё.</p>
+         <p>Это бесплатно </p>
+      </section>
    </main>
-</body>
-<footer class="main-footer">
 
+<footer class="main-footer">
+   <section class="footer-contacts">
+      <img class="footer-contacts-logo" src="" alt="Логотип device">
+      <p class="contacts-address-text"> Санкт-Петербург,
+         набережная реки Карповки, 5, литера П. Меловые линии </p>
+   </section>
+
+   <section class="newsletter">
+      <h2 class="page-footer-title">Получайте лучшие предложения</h2>
+   </section>
+
+   <ul>
+      <li class="footer-navigation-item">
+         <a class="navigation-link" href="#">Доставка</a>
+      </li>
+      <li class="navigation-item">
+         <a class="navigation-link" href="#">Гарантия</a>
+      </li>
+      <li class="navigation-item">
+         <a class="navigation-link" href="#"> Контакты</a>
+      </li>
+   </ul>
+
+
+   <section class="footer-social">
+      <ul class="footer-social-list">
+         <li class="footer-social-item">
+            <a class="button" href="#">
+               <span class="visually-hidden">Телеграм</span>
+            </a>
+         </li>
+         <li class="footer-social-item">
+            <a class="button" href="#">
+               <span class="visually-hidden">Ютуб</span>
+            </a>
+         </li>
+         <li class="footer-social-item">
+            <a class="button" href="#">
+               <span class="visually-hidden">Твитер</span>
+            </a>
+         </li>
+      </ul>
+
+      <a class="footer-contacts-phone" href="tel:+78121212">Тел. +7(812) 812-12-12</a>
+
+      <p class="footer-about-text"><a class="htmlacademy-link" href="https://htmlacademy.ru/">.html
+            academy</a></p>
+   </section>
 </footer>
+</body>
