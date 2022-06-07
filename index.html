@@ -9,18 +9,23 @@
 <body>
 
    <header class="main-header">
-      <img class="logo" src="#" alt="Логотип device">
+      <img class="logo" src="images/header/logo_device.svg" width="145px" height="36px" alt="Логотип device">
       <nav class="navigation">
          <form class="search">
+            <img class="Search" src="images/header/Search.svg" width="16px" height="16px" alt="Поиск">
             <input class="search text" type="search" name="text" placeholder="Текст поиска">
             <input class="search button" type="button" value="Найти">
          </form>
 
          <section class="navigation-link">
-            <a class="navigation-link" href="#">Войти</a>
-            <a class="navigation-link" href="#">Сравнить</a>
-            <a class="navigation-link" href="awarranty.html">Корзина</a>
-            <a class="navigation-link" href="#">Каталог товаров</a>
+            <a class="navigation-link" href="#"><img class="icons" src="images/header/icons.svg" width="13" height="12"
+                  alt="Иконка">Войти</a>
+            <a class="navigation-link" href="#"><img class="graph" src="images/header/graph.svg" width="10" height="12"
+                  alt="Сравнить">Сравнить</a>
+            <a class="navigation-link" href="awarranty.html"><img class="basket" src="images/header/basket.svg"
+                  width="16" height="14" alt="Корзина">Корзина</a>
+            <a class="navigation-link" href="#">Каталог товаров <img class="basket" src="images/header/O.svg" width="50"
+                  height="50" alt="Открыть список"></a>
             <div class="navigation-link">
                <ul class="navigation-list product ">
                   <li class="navigation-product">
@@ -55,7 +60,8 @@
 
       <section class="Product">
          <div class="quadrocopter">
-            <img src="#" alt="quadrocopter">
+            <img class="image quadrocopter " src="images/products/quadrocopter.jpg" width="560px" height="560px"
+               alt="quadrocopter">
             <h3 class="slogan quadrocopter ">Порхает как бабочка,жалит как пчела!</h3>
             <p class="desc quadrocopter">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
                замаскированным под стандартную камеру.
@@ -75,7 +81,7 @@
             </table>
          </div>
          <div class="selfie">
-            <img src="#" alt="selfie">
+            <img src="images/products/selfie.jpg" width="560px" height="560px" alt="selfie">
             <h3 class="slogan selfie ">Делай селфи, как Бен Стиллер!</h3>
             <p class="desc selfie"> Самая длинная палка для селфи доступная в нашем магазине. Восемь (Восемь, Карл!)
                метров
@@ -97,7 +103,7 @@
             </table>
          </div>
          <div class="bracelet">
-            <img src="#" alt="bracelet">
+            <img src="images/products/bracelet.jpg" width="560px" height="560px" alt="bracelet">
             <h3 class="slogan bracelet ">Худеем правильно!</h3>
             <p class="desc bracelet"> Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и
                соблюдать диету. </p>
@@ -114,32 +120,40 @@
             </table>
          </div>
          <button class="slider-button slider-prev" type="button">
+            <img src="images/products/arrow.svg" width="20px" height="60px" alt="назад">
             <span class="visually-hidden">Предыдущий товар</span>
          </button>
          <button class="slider-button slider-next" type="button">
+            <img src="images/products/arrow1.svg" width="20px" height="60px" alt="вперед">
             <span class="visually-hidden">Следующий товар</span>
          </button>
       </section>
       <div class="navigation-list product">
          <ul class="navigation-list product ">
             <li class="navigation-product">
-               <a class="navigation-link" href="#"> <img src="#" alt="Виртуальная реальность">Виртуальная реальность</a>
+               <a class="navigation-link" href="#"> <img src="images/list_products/catalog_images1.svg" width="96.95px"
+                     height="54.99px" alt="Виртуальная реальность">Виртуальная реальность</a>
             </li>
             <li class="navigation-product">
-               <a class="navigation-link" href="catalog.html"><img src="#" alt="Моноподы для селфи">Моноподы
+               <a class="navigation-link" href="catalog.html"><img src="images/list_products/catalog_images2.svg"
+                     width="85.87px" height="117px" alt="Моноподы для селфи">Моноподы
                   дляселфи</a>
             </li>
             <li class="navigation-product">
-               <a class="navigation-link" href="#"><img src="#" alt="Экшн-камеры">Экшн-камеры</a>
+               <a class="navigation-link" href="#"><img src="images/list_products/catalog_images3.svg" width="71.02px"
+                     height="87px" alt="Экшн-камеры">Экшн-камеры</a>
             </li>
             <li class="navigation-product">
-               <a class="navigation-link" href="#"><img src="#" alt="Фитнес-браслеты">Фитнес-браслеты</a>
+               <a class="navigation-link" href="#"><img src="images/list_products/catalog_images4.svg" width="107.31px"
+                     height="64.99px" alt="Фитнес-браслеты">Фитнес-браслеты</a>
             </li>
             <li class="navigation-product">
-               <a class="navigation-link" href="#"><img src="#" alt="Умные часы">Умные часы</a>
+               <a class="navigation-link" href="#"><img src="images/list_products/catalog_images6.svg" width="56.01px"
+                     height="97.98px" alt="Умные часы">Умные часы</a>
             </li>
             <li class="navigation-product">
-               <a class="navigation-link" href="#"><img src="#" alt="Квадрокоптеры">Квадрокоптеры</a>
+               <a class="navigation-link" href="#"><img src="images/list_products/catalog_images5.svg" width="132.03px"
+                     height="69.01px" alt="Квадрокоптеры">Квадрокоптеры</a>
             </li>
          </ul>
       </div>
@@ -223,7 +237,8 @@
 
    <footer class="main-footer">
       <section class="footer-contacts">
-         <img class="footer-contacts-logo" src="" alt="Логотип device">
+         <img class="footer-contacts-logo" src="images/footer/device.svg" width="145px" height="36px"
+            alt="Логотип device">
          <p class="contacts-address-text"> Санкт-Петербург,
             набережная реки Карповки, 5, литера П. Меловые линии </p>
       </section>
@@ -259,7 +274,7 @@
          </ul>
          <a class="footer-contacts-phone" href="tel:+78121212">Тел. +7(812) 812-12-12</a>
          <a class="htmlacademy-link" href="https://htmlacademy.ru/"><img class="footer-contacts-list"
-               src="Логотип HTML Academy"></a>
+               src="images/footer/html academy.svg" width="114.9px" height="32.9px"></a>
       </section>
    </footer>
 </body>
